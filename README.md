@@ -53,7 +53,7 @@ kafka-topics.sh --describe --zookeeper localhost:2181 --topic testtopic
 
 ## GELF example message
 ```json
-{"version": "1.1", "level": 6, "timestamp": 1525762578.938, "_file": "/test.txt, "host": "test", "full_message": "test", "short_message": "test"}
+{"version": "1.1", "level": 6, "timestamp": 1525762578.938, "_file": "/test.txt", "host": "test", "full_message": "test", "short_message": "test"}
 ```
 
 ## Show Kafka topic lag
